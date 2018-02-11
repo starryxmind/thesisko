@@ -1,0 +1,106 @@
+.container-fluid {
+    margin-top: 50px;
+    font-family: 'Pontano Sans', sans-serif;
+}
+body {
+    background-image: url('../images/leaft-pattern.jpg');
+    /*
+    background-image: url('../images/212.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+.navbar {
+    background-color: #005700 !important;
+    border: 1px solid #000000;
+    font-weight: bold;
+
+}
+.img-header {
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+.form-inline {
+    text-align: center;
+}
+#reservation {
+    margin-top: 30px;
+    background-color: #b3ffb4;
+    border: 5px solid #fefefa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#slow-net {
+    background-color: #b3ffb4;
+    border: 5px solid #fefefa;
+}
+.book-panel {
+    border-left: 2px solid #000;
+}
+#section-header {
+    font-family: 'Satisfy', cursive;
+    padding-top: 10px;
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    border-radius: 10px;
+    border: 2px solid;
+}
+#color-menu {
+    color: #fff;
+}
+#navbarDropdown {
+    color: #fff;
+}
+.btn-outline-success {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fff;
+}
+.btn-outline-success:hover {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #00f738;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/*Amenities page*/
+#img-banner {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 10px;
+}
+#function-img {
+    height: 200px;
+    border: 2px solid #00a65a;
+}
+.roomtype {
+    height: 246px;
+}
+.textar {
+    resize: none;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 50px;
+}
+.reservation-details {
+    background-color: #b3ffb4;
+    border: 5px solid #fefefa;
+    padding: 10px;
+}
+.reservation-details > p {
+    font-weight: bold;
+}
+#reservation-summary {
+    background-color: #b3ffb4;
+    border: 5px solid #fefefa;
+}
